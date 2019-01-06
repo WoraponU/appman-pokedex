@@ -1,0 +1,43 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  position: relative;
+  justify-content: flex-start;
+  height: 100%;
+}
+
+.App .header {
+}
+
+.App .content {
+  flex: 1;
+  overflow-y: scroll;
+}
+
+.App .footer {
+  margin-top: auto;
+  background-color: #ec5656;
+  height: 100px;
+  position: relative;
+}
+
+.footer .add-my-pokedex {
+  position: absolute;
+  border-radius: 75px;
+  height: 150px;
+  width: 150px;
+  margin: auto;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ec5656;
+  vertical-align: middle;
+  line-height: 150px;
+  font-size: 80px;
+  color: white;
+}
+
+.card-row {
+  margin-bottom: 10px;
+}
